@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{8b0a89f8-30b2-4944-b273-da1c1fcb1819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{af474f4d-9e8d-4882-9e93-9b6a4cb0be8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World">
+      <UniqueIdentifier>{ece914be-2ce8-4c20-b490-efd7f404c2c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World">
+      <UniqueIdentifier>{4b951a16-d8dc-4abe-a9da-e20b58c1366a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers\Checkpoints">
+      <UniqueIdentifier>{c2d3423d-249f-4089-b87a-783455333804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers\Checkpoints">
+      <UniqueIdentifier>{1c615004-0b22-4007-8d73-6dfa3ff7f9de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Neural Net">
+      <UniqueIdentifier>{1a31e808-f82c-4a95-9124-81ee3b45c6b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Neural Net">
+      <UniqueIdentifier>{2ea38342-661d-4ab9-9ea4-b88733d3bd07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ThreadPool">
+      <UniqueIdentifier>{207189cc-5f8f-4420-b68c-8c7a1582f60f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{73f5a5fa-a829-4db6-98df-81ba423d1c2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{ae5d47d0-3521-445c-9771-40b3036545af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Elements">
+      <UniqueIdentifier>{609751ac-634f-4c41-9240-c5ef51d3a15b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\Elements">
+      <UniqueIdentifier>{c7e494f4-c8b8-43c8-b3db-6d6d495d4328}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Track.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackPiece.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckPoint.cpp">
+      <Filter>Source Files\Managers\Checkpoints</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckPointTracker.cpp">
+      <Filter>Source Files\Managers\Checkpoints</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckPointManager.cpp">
+      <Filter>Source Files\Managers\Checkpoints</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Source Files\Neural Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Trainer.cpp">
+      <Filter>Source Files\Neural Net</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\GUI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Dropdown.cpp">
+      <Filter>Source Files\GUI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>Source Files\GUI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Textbox.cpp">
+      <Filter>Source Files\GUI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="UIElement.cpp">
+      <Filter>Source Files\GUI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackPiece.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Track.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckPoint.h">
+      <Filter>Header Files\Managers\Checkpoints</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckPointManager.h">
+      <Filter>Header Files\Managers\Checkpoints</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckPointTracker.h">
+      <Filter>Header Files\Managers\Checkpoints</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Header Files\Neural Net</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeQueue.h">
+      <Filter>Header Files\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Header Files\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Trainer.h">
+      <Filter>Header Files\Neural Net</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIElement.h">
+      <Filter>Header Files\GUI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Textbox.h">
+      <Filter>Header Files\GUI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>Header Files\GUI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Dropdown.h">
+      <Filter>Header Files\GUI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\GUI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+Node structure,8 8 8 7 5
+Hidden Layer Activation Function,Tanh
+Output Layer Activation Function,Tanh
+Generation Size,390
+Total Generations Completed,10
+Mutation Rate %,0
+Mutation Rate % (minor),0
+Total elapsed time,00:05:40:850
+Best fitness,18.0563
+Average fitness,17.1612
+====DATA====
+Generation,Best Fitness,Average Fitness
+1,14.0849,0.937039
+2,16.0803,5.43516
+3,18.0302,7.23334
+4,18.0282,6.74545
+5,16.0545,6.22126
+6,18.0325,6.40138
+7,18.0563,9.96506
+8,18.0553,7.00485
+9,18.0288,6.54755
